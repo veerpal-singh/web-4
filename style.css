@@ -1,0 +1,539 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* header-section  */
+
+
+.header{
+    height: 500px;
+    background-image: url(images/img7.jpg);
+    background-size: cover;
+}
+
+.header-left img{
+    height: 350px;
+    margin-top: 100px;
+}
+
+.main-header {
+    justify-content: space-between;
+}
+
+.main-header p{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.bar{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.header-section{
+    justify-content: space-evenly;
+}
+
+.header-right h1{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.header-right h2{
+    margin-left: 100px;
+}
+
+.header-right p{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.header-right button{
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: rgb(248, 247, 247);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+/* card section */
+
+.card-section-1{
+    justify-content: center;
+    margin-top: 30px;  
+}
+
+.card{
+    height: 450px;
+    background-color: rgb(26, 25, 25);
+}
+
+.card h3{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.card pre{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-1{
+    height: 230px;
+    width: 150px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.card-1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid yellow;
+    margin-left: 31px;
+    margin-top: 10px;    
+}
+
+.card-1 p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.card-1 pre{
+    color: black;
+    text-align: center;
+}
+
+.para{
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.card-last{
+    text-align: center;
+    color: rgb(243, 235, 235);
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+
+/* reliable section */
+
+
+.reliable{
+    background-color: rgb(238, 238, 11);
+    height: 460px;
+    justify-content: center;
+}
+
+.reliable-left img{
+    width: 500px;
+    height: 400px;
+    margin-right: 300px;
+    margin-top: 60px;
+    background-color: yellow;
+    border: none;
+    
+}
+
+.heading h2{
+    margin-right: 300px;    
+}
+
+.heading{
+    margin-top: 50px;
+}
+
+.reliable-p{
+    margin-top: 20px;
+}
+
+.rel-check{
+    margin-top: 20px;
+}
+
+.rel-check-text p{
+    margin-left: 5px;
+}
+
+.rel-check-2{
+    margin-left: 60px;
+}
+
+.rel-check-last{
+   margin-top: 35px;
+   font-size: 10px;
+}
+
+
+/* home-repair-services section */
+
+.home-repair-services{
+    height: 700px;
+}
+
+.kitche-repair h5{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.home-repair-services h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home-p{
+    margin-top: 10px;
+}
+
+.kitche-repair{
+    justify-content: space-evenly; 
+    margin-top: 20px;   
+}
+
+.home-p{
+    width: 200px;
+    border-top: 4px solid yellow;
+}
+
+.home-repair-services button{  
+    margin-left: 600px; 
+    margin-top: 30px;
+    padding: 5px;   
+}
+
+/* our-services-section */
+
+
+.our-services{
+    height: 345px;
+    background-color: yellow;
+}
+
+.our-services h2{
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.card-carpentry{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    margin-top: 80px;   
+}
+
+.card-carpentry img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.card-carpentry h4{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.card-carpentry p{
+    margin-left: 5px;
+}
+
+.card-carpentry h6{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.our-services-card{
+    justify-content: center;
+    gap: 50px;
+}
+
+
+/* home-repair-section */
+
+
+/* .home-repair{
+    height: 300px;
+    background-color: yellow;
+    margin-top: 40px;
+}
+
+.home-repair-left button{
+    padding: 5px;
+    margin-top: 15px;
+    background-color: yellow;
+}
+
+.right-img img{
+    margin-top: 30px;
+    height: 250px;
+    width: 350px;
+}
+
+.home-repair{
+    justify-content: space-between;
+} */
+
+.home-repair{
+    background-color: yellow;
+    margin-top: 30px;
+}
+
+.home-repair img{
+    margin-right: 80px;
+}
+
+
+/* Send-us-section */
+
+.send-us{
+    height: 500px;
+}
+
+.send-us h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.send-left img{
+    height: 300px;
+    margin-top: 30px;
+}
+
+.send-left h3{
+    margin-top: 10px;
+}
+
+.send-left p{
+    margin-top: 10px;
+}
+
+.send-left button{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: yellow;
+    border: none;
+}
+
+.send-left-right{
+    justify-content: space-around;
+}
+
+.left-right-p{
+    text-align: center;
+    height: 80px; 
+    
+}
+
+/* proffessional-section */
+
+
+.proffessional{
+    height: 360px;
+    background-color: rgb(20, 20, 20);
+}
+
+.proffessional h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.proffessional p{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    position: relative;
+    top: 40px; 
+}
+
+.pro-card1{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-top: 4px solid yellow;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pro-card1 p{
+    color: black;
+    font-size: 12px;
+}
+
+.pro-card1 h4{
+    position: relative;
+    top: 20px;
+}
+
+.arrow{
+    margin-top: 70px;
+    text-align: end;
+    margin-left: 170px;
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+
+.proffessional-card{
+    justify-content: center;
+    gap: 30px;
+}
+
+/* meet-section */
+
+.meet{
+    height: 500px;
+    /* background-color: red; */
+}
+
+
+.meet-left{
+    height: 430px;
+    width: 230px;
+    margin-top: 30px;
+    background-color: rgb(245, 241, 241);
+    padding: 20px;
+}
+
+.meet-left button{
+    padding: 5px;
+    /* margin-left: 10px; */
+}
+
+.meet-right img{
+    height: 470px;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.meet{
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* footer-section */
+
+.footer{
+    height: 200px;
+    background-color: black;
+}
+
+.email h3{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.email P{
+    color: white;
+    position: relative;
+    top: 40px;
+}
+
+.email button{
+    background-color: yellow;
+    color: black;
+    padding: 5px 65px;
+    border-radius: 10px;
+    border: none;
+}
+
+.email input{
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: none; 
+}
+
+.footer{
+    justify-content: center;
+    gap: 50px;
+}
+
+.icon{
+    color: white;
+    margin-top: 24px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.email-2 p{
+    color: white;
+    margin-top: 10px;
+}
+
+.email-2 input{
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px; 
+}
+
+.email-2 button{
+    background-color: yellow;
+    color: black;
+    padding: 5px 65px;
+    border-radius: 10px;
+    border: none;
+}
+
+.email-3 button{
+    background-color: yellow;
+    color: black;
+    padding: 5px 65px;
+    border-radius: 10px;
+    border: none;
+}
+
+.email-3 input{
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px; 
+}
+
+.email-3 p{
+    color: white;
+    margin-top: 10px;
+}
+
+.emil-3 icon{
+    color: white;
+    margin-top: 24px;
+    font-size: 30px;
+    margin-left: 30px;    
+}
